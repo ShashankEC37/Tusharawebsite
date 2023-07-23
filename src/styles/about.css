@@ -1,0 +1,113 @@
+@media only screen and (max-width: 992px) {
+  .about__page-content h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about__page-img {
+    display: none;
+  }
+}
+
+.whatwedo_section{
+  background-color: #000d6b;
+  justify-content: center;
+  align-items: center;
+}
+.What__we__do{
+  color: #f9a826;
+  font-size: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+.button-container {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  align-items: center; /* Center the button vertically */
+  height: 200px; /* Set a height for the container (adjust as needed) */
+  /* Add other styles as needed */
+}
+
+button.Know__More {
+  /* Add button styles as needed */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color:white;
+  color: #000d6b;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* Assuming the .cards-container should be a flexbox container */
+.cards-container {
+  justify-content: center; /* Center the button horizontally */
+  align-items: center; /* Center the button vertically */
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  margin-top: 20px; /* Add spacing between the heading and cards */
+}
+
+.card {
+  display: flex;
+  width: 200px; /* Adjust the width of the cards as needed */
+  height: 300px;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow to the cards */
+}
+
+.Know__More {
+  background: #fff;
+  color:  #000d6b;
+  font-weight: 600;
+  margin: 30px;
+  left:50%;
+  align-items: center;
+}
+.card img {
+  width: 50%;
+  height: auto; /* Maintain the aspect ratio of the images */
+  border-radius: 8px; /* Optional: Add rounded corners to the images */
+}
+
+.card-text {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.about__page-section1{
+  background-color: white;
+}
+
+.about__page-section2{
+  background-color: #000d6b;
+  padding-bottom: 40px;
+}
+
+.Vision{
+  color: #000d6b;
+}
+.vision__img img{
+  width: 200px;
+  height: 200px;
+  margin-top: -30px;
+}
+
+.about__section-content4{
+  background-color: white;
+}
+.title{
+  padding-top: 0%;
+  color: #000d6b;
+  padding-left: 0%;
+  font-size: 2rem;
+  padding-bottom: 0%;
+}
+.description{
+  padding: 0%;
+  color: black;
+  padding-left: 0%;
+}
