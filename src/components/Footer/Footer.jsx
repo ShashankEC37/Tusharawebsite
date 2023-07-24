@@ -72,7 +72,7 @@ const Footer = () => {
               <p className="office__info"><a href='#'>India Mart</a></p>
               <p className="office__info">Phone: +0995345875365</p>
 
-              <p className="office__info">Email: muhib5532@gmail.com</p>
+              <p className="office__info">Email: tushara@gmail.com</p>
 
               <p className="office__info">Office Time: 10am - 7pm</p>
             </div>
