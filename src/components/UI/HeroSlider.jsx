@@ -15,7 +15,7 @@ const HeroSlider = () => {
     autoplay: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    pauseOnHover: true,
+    pauseOnHover: false,
     dots: true, // Enable dots
   };
   return (
