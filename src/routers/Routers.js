@@ -4,7 +4,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Products from "../pages/Products";
 import CarDetails from "../pages/CarDetails";
-import Blog from "../pages/Blog";
+import Resources from "../pages/Resources";
 import BlogDetails from "../pages/BlogDetails";
 import NotFound from "../pages/NotFound";
 import Contact from "../pages/Contact";
@@ -17,7 +17,7 @@ const Routers = () => {
       <Route path="/about" element={<About />} />
       <Route path="/Products" element={<Products />} />
       <Route path="/cars/:slug" element={<CarDetails />} />
-      <Route path="/blogs" element={<Blog />} />
+      <Route path="/Resources" element={<Resources />} />
       <Route path="/blogs/:slug" element={<BlogDetails />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
