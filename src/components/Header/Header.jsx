@@ -14,12 +14,12 @@ const navLinks = [
     display: "About",
   },
   {
-    path: "/Services",
-    display: "Services",
+    path: "/Resourses",
+    display: "Resourses",
   },
 
   {
-    path: "/Product",
+    path: "/Products",
     display: "Products",
   },
   {
