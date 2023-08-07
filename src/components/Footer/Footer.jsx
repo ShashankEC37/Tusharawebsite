@@ -69,7 +69,7 @@ const Footer = () => {
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Contact Us</h5>
-              <p className="office__info"><a href='#'>India Mart</a></p>
+           
               <p className="office__info">Phone: +0995345875365</p>
 
               <p className="office__info">Email: tushara@gmail.com</p>

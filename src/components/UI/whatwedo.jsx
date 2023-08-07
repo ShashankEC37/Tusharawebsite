@@ -13,19 +13,19 @@ const Whatwedo = () => {
         <div class="cards-container">
     <div class="card">
       <img src={laser} alt="Image 1"/>
-      <p class="card-text">Ms Laser Cutting</p>
+      <p class="card-text">ENCLOSURE FOR PORTABLE POWER COMPRESSOR</p>
     </div>
     <div class="card">
       <img src={laser}  alt="Image 2"/>
-      <p class="card-text">Ms Laser Cutting</p>
+      <p class="card-text">Industrial Air Filters, Fan Filters</p>
     </div>
     <div class="card">
       <img src={laser}  alt="Image 3"/>
-      <p class="card-text">Ms Laser Cutting</p>
+      <p class="card-text">ELEVATORS</p>
     </div>
     <div class="card">
       <img src={laser}  alt="Image 4"/>
-      <p class="card-text">Ms Laser Cutting</p>
+      <p class="card-text">CONVEYORS</p>
     </div>  
    
     </div>

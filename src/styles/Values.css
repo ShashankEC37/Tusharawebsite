@@ -10,6 +10,7 @@ values-container {
   font-size: 4rem;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .value-column {

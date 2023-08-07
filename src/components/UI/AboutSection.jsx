@@ -28,9 +28,11 @@ const AboutSection = ({ aboutClass }) => {
               </p>
            
 
-              <div className="about__section-item d-flex align-items-center" style={{marginBottom:"40px"}}>
-              <button className=" w-50 car__item-btn car__btn-details" >Learn More</button>
-              </div>
+              <div class="button-container">
+    <button className="Know__More">
+      Know More
+    </button>
+    </div>
             </div>
           </Col>
 
