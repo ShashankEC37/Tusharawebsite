@@ -45,11 +45,9 @@ const Footer = () => {
                 </Link>
               </h1>
             </div>
+          
             <p className="footer__logo-content">
-             Address:
-            </p>
-            <p className="footer__logo-content">
-            No. 19, 22nd Cross, Doddanna Industrial Estate, Peenya, 2nd Stage, Doddanna Industrial Estate-Hegganahalli, Bangalore - 560091
+            No.19, 22nd Cross, Doddanna Industrial Estate Peenya 2 nd Stage, Bangalore – 560 091
             </p>
           </Col>
 
@@ -70,9 +68,9 @@ const Footer = () => {
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Contact Us</h5>
            
-              <p className="office__info">Phone: +0995345875365</p>
+              <p className="office__info">Phone: +91 96326 87999</p>
 
-              <p className="office__info">Email: tushara@gmail.com</p>
+              <p className="office__info">Email: nandakumar@tusharaindustries.in</p>
 
               <p className="office__info">Office Time: 10am - 7pm</p>
             </div>

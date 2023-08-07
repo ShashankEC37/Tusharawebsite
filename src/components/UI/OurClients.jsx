@@ -87,7 +87,7 @@ const OurClients = () => {
   return (
     <Container>
       <div className='Our__Clients'>
-      <h2 className='title'>Our Clients</h2>
+      <h2 className='title1'>Our Clients</h2>
       <Slider {...settings} beforeChange={handleSlideChange}>
         {visibleImages.map((image) => (
           <div key={image.id} className="card-container">

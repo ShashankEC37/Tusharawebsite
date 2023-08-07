@@ -90,17 +90,6 @@ const OurMembers = () => {
                         </p>
                         <h4 className="card-title">{member.name}</h4>
                         <p className="card-text">{member.designation}</p>
-                        <a href="#">
-                          <i className="fa fa-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="backside">
-                    <div className="card">
-                      <div className="card-body text-center mt-4">
-                        <h4 className="card-title">{member.name}</h4>
-                        <p className="card-text">{member.designation}</p>
                         <ul className="list-inline">
                           {member.social.map((socialItem) => (
                             <li className="list-inline-item" key={socialItem.name}>
@@ -117,6 +106,7 @@ const OurMembers = () => {
                       </div>
                     </div>
                   </div>
+             
                 </div>
               </div>
             </div>

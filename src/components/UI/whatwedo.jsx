@@ -17,7 +17,7 @@ const Whatwedo = () => {
     </div>
     <div class="card">
       <img src={laser}  alt="Image 2"/>
-      <p class="card-text">Industrial Air Filters, Fan Filters</p>
+      <p class="card-text">INDUSTRIAL AIR FILTERS, FAN FILTERS</p>
     </div>
     <div class="card">
       <img src={laser}  alt="Image 3"/>

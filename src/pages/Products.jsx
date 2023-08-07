@@ -1,5 +1,6 @@
 import React, { useState }  from "react";
 import { Container, Row, Col } from "reactstrap";
+import Slider from "react-slick";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
 import "../styles/products.css"
@@ -9,10 +10,21 @@ import belt from "../assets/all-images/belt-conveyor.jpg"
 import elevator from "../assets/all-images/elevator.jpg"
 
 const Products = () => {
-
+  const settings = {
+    fade: true,
+    speed: 2000,
+    autoplaySpeed: 3000,
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    pauseOnHover: true,
+    dots: true, // Enable dots
+  };
   
   return (
     <Helmet title="Cars">
+      
       <CommonSection title="Products" />
 
       <section style={{backgroundColor:"white"}}>
@@ -41,7 +53,7 @@ environments</p>
         </div>
        
         <div className="content">
-          <h2>Industrial Air Filters, Fan Filters</h2>
+          <h2>INDUSTRIAL AIR FILTERS, FAN FILTERS</h2>
           <p>Our industrial air filters and
 fan filters are designed to
 maintain clean and

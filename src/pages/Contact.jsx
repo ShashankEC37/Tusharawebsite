@@ -19,10 +19,7 @@ const socialLinks = [
     url: "#",
     icon: "ri-linkedin-line",
   },
-  {
-    url: "#",
-    icon: "ri-twitter-line",
-  },
+ 
 ];
 
 const Contact = () => {
@@ -38,6 +35,9 @@ const Contact = () => {
               <Form>
                 <FormGroup className="contact__form">
                   <Input placeholder="Your Name" type="text" />
+                </FormGroup>
+                <FormGroup className="contact__form">
+                  <Input placeholder="Phone Number" type="text" />
                 </FormGroup>
                 <FormGroup className="contact__form">
                   <Input placeholder="Email" type="email" />
@@ -64,12 +64,12 @@ const Contact = () => {
                 </p>
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="fs-6 mb-0">Phone:</h6>
-                  <p className="section__description mb-0" style={{color:"black"}}>+88683896366</p>
+                  <p className="section__description mb-0" style={{color:"black"}}>+91 96326 87999</p>
                 </div>
 
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="mb-0 fs-6">Email:</h6>
-                  <p className="section__description mb-0" style={{color:"black"}}>example@gmail.com</p>
+                  <p className="section__description mb-0" style={{color:"black"}}>nandakumar@tusharaindustries.in</p>
                 </div>
 
                 <h6 className="fw-bold mt-4">Follow Us</h6>

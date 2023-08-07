@@ -39,6 +39,7 @@
 }
 .section__description{
   color: white;
+  text-align: justify;
 }
 @media only screen and (max-width: 992px) {
   .about__section-content h2 {
