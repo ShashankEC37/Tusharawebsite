@@ -60,7 +60,7 @@ const Contact = () => {
               <div className="contact__info">
                 <h6 className="fw-bold">Contact Information</h6>
                 <p className="section__description mb-0" style={{color:"black"}}>
-                No. 19, 22nd Cross, Doddanna Industrial Estate, Peenya, 2nd Stage, Doddanna Industrial Estate-Hegganahalli, Bangalore - 560091
+                No.19, 22nd Cross, Doddanna Industrial Estate Peenya 2 nd Stage, Bangalore – 560 091
                 </p>
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="fs-6 mb-0">Phone:</h6>

@@ -13,65 +13,16 @@ import accountability from "../assets/all-images/accountability.png"
 import ContinousGrowth from "../assets/all-images/Continous Growth.PNG"
 import OurExperience from "../components/UI/OurExperience";
 
-
+import Helmet from "../components/Helmet/Helmet";
+import CommonSection from "../components/UI/CommonSection";
 
 const About = () => {
-  const settings = {
-    fade: true,
-    speed: 2000,
-    autoplaySpeed: 3000,
-    infinite: true,
-    autoplay: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    pauseOnHover: true,
-    dots: true, // Enable dots
-  };
-
+  
   return (
    <>
-   <Slider {...settings} className="hero__slider">
-      <div className="slider__item slider__item-01 mt0">
-        <Container>
-        <div className="slider__content" style={{ position: "relative" }}>
-  {/* Other content... */}
-  
-  <button
-    className="btn reserve__btn mt-4"
-    style={{ position: "absolute", bottom: 0, left: 0 }}
-  >
-    <Link to="/cars">About us</Link>
-  </button>
-</div>
-        </Container>
-      </div>
-
-      <div className="slider__item slider__item-02 mt0">
-        <Container>
-          <div className="slider__content ">
-         
-        
-
-            <button className="btn reserve__btn mt-4">
-           
-              <Link to="/cars">About us</Link>
-            </button>
-          </div>
-        </Container>
-      </div>
-
-      <div className="slider__item slider__item-03 mt0">
-        <Container>
-          <div className="slider__content ">
-        
-
-            <button className="btn reserve__btn mt-4">
-              <Link to="/cars">About Us</Link>
-            </button>
-          </div>
-        </Container>
-      </div>
-    </Slider>
+    <Helmet title="Cars">
+      
+      <CommonSection title="About Us" />
    
     <section className="about__page-section1">
     <Container>
@@ -172,7 +123,7 @@ const About = () => {
     <OurExperience />
 
     <OurMembers />
-
+    </Helmet>
     </>
   );
 };

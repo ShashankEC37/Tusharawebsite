@@ -21,7 +21,11 @@ const AboutSection = ({ aboutClass }) => {
               <h4 className="About__Us">About Us</h4>
               <h2 className="section__title"> Manufacturer of MS Laser Cutting Piece</h2>
               <p className="section__description">
-              With an impressive history and steadfast dedication to excellence, Expanding our capabilities, we now provide high-precision laser cutting services for various metals. Utilizing advanced laser cutting machines and skilled technicians, we deliver intricate and precise metal cutting solutions. Our expertise covers a wide range of metals, including stainless steel, aluminum, copper, and brass. Laser cutting ensures clean edges, minimizes material waste, and significantly reduces production time. 
+              With a rich history and unwavering commitment to excellence, Tushara Industries stands as a leading name in the field of industrial fabrication and equipment manufacturing. 
+
+We were originally established as Sri Lakshmi Engineering Works in 2005. 
+
+we rebranded ourselves as Tushara Industries in 2011 to reflect our growth and expanding range of services.
               </p>
               <p className="section__description">
               We were originally established as Sri Lakshmi Engineering Works in 2005. 

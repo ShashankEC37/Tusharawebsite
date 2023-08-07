@@ -27,9 +27,9 @@ const Products = () => {
       
       <CommonSection title="Products" />
 
-      <section style={{backgroundColor:"white"}}>
+      <section style={{backgroundColor:"white" ,  margin:"0"}}>
         <Container>
-        <div className="container1">
+        <div className="container1" >
         <div className="card">
         <div className="imgBx"></div>
         <div className="content">

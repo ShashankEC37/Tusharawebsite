@@ -4,14 +4,15 @@ import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
 import cnc from "../assets/all-images/cnc.jpg"
 import cncbending from "../assets/all-images/cnc bending.jpg"
+import "../styles/products.css"
 
 const Resources = () => {
   return (
     <Helmet title="Blogs">
-      <CommonSection title="Resources" />
-      <section>
+      <CommonSection title="Our Facility" />
+      <section style={{backgroundColor:"white"}}>
         <Container>
-        <h3 style={{color:"white", textAlign:"justify"}}>At Tushara Industries,
+        <h3 style={{color:"black", textAlign:"justify" , margin:"0"}}>At Tushara Industries,
 We take great pride in our
 advanced facility, equipped with
 cutting-edge machinery and

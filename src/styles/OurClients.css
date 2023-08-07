@@ -26,14 +26,14 @@
   font-size: 3rem;
 }
 
-.card {
+.card{
   border: 1px solid #ccc;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 400px; /* Set the height for all the cards (adjust as needed) */
-  width: 1000px; /* Set the width for all the cards (adjust as needed) */
+  height: 300px; /* Set the height for all the cards (adjust as needed) */
+  width: 300px; /* Set the width for all the cards (adjust as needed) */
 }
 .Our__Clients{
   background-color: white;
@@ -46,8 +46,8 @@
   align-items: center; /* Center the button vertically */
 }
 .card img {
-  height: 400px;
-  width: 5  00px;
+  height: 300px;
+  width: 300px;
 }
 .Learn_more {
   display: flex;
