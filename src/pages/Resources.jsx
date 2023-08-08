@@ -3,7 +3,9 @@ import { Container, Row } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
 import cnc from "../assets/all-images/cnc.jpg"
-import cncbending from "../assets/all-images/cnc bending.jpg"
+import cncbending from "../assets/all-images/cnc bending.jpg";
+import cnclazer from "../assets/all-images/cnc laser.jpg";
+import eot from "../assets/all-images/EOT Crane fabrication.jpg"
 import "../styles/products.css"
 
 const Resources = () => {
@@ -27,7 +29,9 @@ solutions to our valued clients.</h3>
         <div className="container1">
         
         <div className="card">
-        <div className="imgBx"></div>
+        <div className="imgBx">
+        <img src={cnclazer}/>
+        </div>
         <div className="content">
         <h2>CNC Laser
 Cutting Machine</h2>
@@ -46,7 +50,7 @@ fabrication requirements.</p>
 
         <div className="card">
         <div className="imgBx">
-        <img src={cnc}/>
+        <img src={cncbending}/>
         </div>
        
         <div className="content">
@@ -65,7 +69,9 @@ of bending tasks.</p>
         </div>
 
         <div className="card">
-        <div className="imgBx"></div>
+        <div className="imgBx">
+        <img src={eot}/>
+        </div>
         <div className="content">
         <h2>Fabrication Setup
 with EOT crane</h2>

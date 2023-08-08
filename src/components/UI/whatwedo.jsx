@@ -8,85 +8,83 @@ import belt from "../../assets/all-images/belt-conveyor.jpg"
 import elevator from "../../assets/all-images/elevator.jpg"
 const Whatwedo = () => {
     return (
-        <section
-        className="whatwedo_section"
-
-        >
+      <section style={{backgroundColor:"#000d6b" ,  margin:"0"}}>
       <Container>
-        <div className="container1" >
-        <div className="box">
-        <div className="imgBx"></div>
-        <div className="content">
-        <h2>Enclosure for portable power compressor</h2>
-          
-<a href="#">Read More</a>
-        </div>
-        </div>
-
-        <div className="box">
-        <div className="imgBx">
-        <img src={compressor}/>
-        </div>
-       
-        <div className="content">
-          <h2>Industrial air filters, fans filters</h2>
-       
-
-        </div>
-        </div>
-
-        <div className="box">
-        <div className="imgBx"></div>
-        <div className="content">
-        <h2>Body for shot blasting machines</h2>
-         
-        </div>
-        </div>
-
-        <div className="box">
-        <div className="imgBx">
-        <img src={containers}/>
-        </div>
-       
-        <div className="content">
-          <h2>Various types of diesel
-tanks with leak test and
-pressure test facility</h2>
-       
-        </div>
-
+      <h2 className='title1' >Our Products</h2>
+      <div className="container1" >
+      <div className="box">
+      <div className="imgBx"></div>
+      <div className="content">
+      <h2>Enclosure for portable power compressor</h2>
         
-        </div>
+<a href="#">Know More</a>
+      </div>
+      </div>
 
-        <div className="box">
-        <div className="imgBx">
-        <img src={belt}/>
-        </div>
-       
-        <div className="content">
-          <h2>Conveyors</h2>
-          
-        </div>
+      <div className="box">
+      <div className="imgBx">
+      <img src={compressor}/>
+      </div>
+     
+      <div className="content">
+        <h2>Industrial air filters, fans filters</h2>
+      </div>
+      </div>
 
+      <div className="box">
+      <div className="imgBx"></div>
+      <div className="content">
+      <h2>Body for shot blasting machines</h2>
         
-        </div>
 
-        <div className="box">
-        <div className="imgBx">
-        <img src={elevator}/>
-        </div>
+      </div>
+      </div>
+
+      <div className="box">
+      <div className="imgBx">
+      <img src={containers}/>
+      </div>
+     
+      <div className="content">
+        <h2>Various types of diesel tanks with leak test </h2>
        
-        <div className="content">
-          <h2>Elevators</h2>
-          
-        </div>
+      </div>
 
-        
-        </div>
+      
+      </div>
+
+      <div className="box">
+      <div className="imgBx">
+      <img src={belt}/>
+      </div>
+     
+      <div className="content">
+        <h2>Conveyors</h2>
+       
+      </div>
+
+      
+      </div>
+
+      <div className="box">
+      <div className="imgBx">
+      <img src={elevator}/>
+      </div>
+     
+      <div className="content">
+        <h2>Elevators</h2>
+       
+      </div>
+
+      
+      </div>
+  </div>
+  <div class="button-container">
+  <button className="know" >
+      Know More
+    </button>
     </div>
-
-        </Container>
-  
+      </Container>
     </section>
     )
 }

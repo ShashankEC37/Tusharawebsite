@@ -7,7 +7,9 @@ import "../styles/products.css"
 import compressor from "../assets/all-images/compressor.jpg"
 import containers from "../assets/all-images/container.jpg"
 import belt from "../assets/all-images/belt-conveyor.jpg"
-import elevator from "../assets/all-images/elevator.jpg"
+import elevator from "../assets/all-images/elevator.jpg";
+import aircompressor from "../assets/all-images/air compressor.jpg"
+import shortblaster from "../assets/all-images/shot blaster.jpg"
 
 const Products = () => {
   const settings = {
@@ -31,7 +33,9 @@ const Products = () => {
         <Container>
         <div className="container1" >
         <div className="card">
-        <div className="imgBx"></div>
+        <div className="imgBx">
+        <img src={aircompressor}/>
+        </div>
         <div className="content">
         <h2>Enclosure for portable power compressor</h2>
           <p>We specialize in fabricating
@@ -70,7 +74,9 @@ safety.</p>
         </div>
 
         <div className="card">
-        <div className="imgBx"></div>
+        <div className="imgBx">
+        <img src={shortblaster}/>
+        </div>
         <div className="content">
         <h2>Body for shot blasting machines</h2>
           <p>We excel in manufacturing

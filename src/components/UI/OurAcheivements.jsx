@@ -9,6 +9,7 @@ const OurAcheivements = () => {
 
 
   return (
+   
     <section
     className="ouracheivements"
    
@@ -57,7 +58,7 @@ const OurAcheivements = () => {
       </Row>
     </Container>
   </section>
-   
+
   );
 };
 

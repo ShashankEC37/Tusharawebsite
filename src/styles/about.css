@@ -38,6 +38,7 @@ button.Know__More {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-weight: 800;
 }
 /* Assuming the .cards-container should be a flexbox container */
 .cards-container {
@@ -79,6 +80,8 @@ button.Know__More {
 }
 
 .about__page-section1{
+  padding: 0%;
+  margin: 0%;
   background-color: white;
 }
 
@@ -90,6 +93,9 @@ button.Know__More {
 .Vision{
   color: #000d6b;
   text-align: justify;
+  word-spacing: -2px;
+  font-weight: 600;
+  font-size: 1.2em;
 }
 .vision__img img{
   width: 300px;
@@ -112,4 +118,12 @@ button.Know__More {
   color: black;
   padding-left: 0%;
   text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+  .Vision{
+    color: #000d6b;
+    text-align: justify;
+    word-spacing: -2px;
+  }
 }

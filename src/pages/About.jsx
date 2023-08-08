@@ -24,33 +24,27 @@ const About = () => {
       
       <CommonSection title="About Us" />
    
-    <section className="about__page-section1">
-    <Container>
-    <h4 className="Values">Vision</h4>
-  <Row>
-  <Col lg="6" md="6"  >
-      <div className="vision__img">
-         <img src={vision} alt=""  />
-      </div>
-    </Col>
-  <Col lg="6" md="6">
+      <section className="about__page-section1">
+      <div className='container1' style={{padding:"0%"}}>
+       
+        <Row  style={{paddingRight:"10%", paddingLeft:"10%"}}>
+          <Col lg="4" md="4">
+            
+              <img src={vision} alt="" style={{height:"250px" , width:"250px"}} />
+         
+          </Col>
+          <Col lg="8" md="8">
+          <h4 className="Values" style={{ textAlign: "center"  }}>Vision</h4>
             <div className="about__section-content">
-              <p className="Vision">
+            
+              <p className="Vision" >
               To be the industry's leading provider of precision laser cutting solutions, driven by innovation, cutting-edge technology, and an unwavering commitment to quality. We aim to revolutionize metal fabrication and empower our clients with exceptional products, while fostering sustainable growth and making a positive impact on the global manufacturing landscape
               </p>
-          
-      
-           
-
-              <div className="about__section-item d-flex align-items-center" style={{marginBottom:"40px"}}>
-           
-              </div>
+              <div className="about__section-item d-flex align-items-center" style={{ marginBottom: '40px' }}></div>
             </div>
           </Col>
-
-          
-    </Row>
-  </Container>
+        </Row>
+      </div>
     </section>
 
       <section className="about__page-section2">
