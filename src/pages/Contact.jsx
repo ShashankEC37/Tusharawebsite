@@ -23,6 +23,8 @@ const socialLinks = [
 ];
 
 const Contact = () => {
+  const googleMapSrc =
+  'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.370495226926!2d77.5036333!3d13.0120625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3cf909a2e003%3A0x18d010f40eed89b1!2s091%2C%20560%2C%201st%20Main%20Rd%2C%20Peenya%20Industrial%20Area%20Phase%20IV%2C%20Peenya%2C%20Bengaluru%2C%20Karnataka%20560058!5e0!3m2!1sen!2sin!4v1691497310370!5m2!1sen!2sin';
   return (
     <Helmet title="Contact">
       <CommonSection title="Contact" />
@@ -60,7 +62,11 @@ const Contact = () => {
               <div className="contact__info">
                 <h6 className="fw-bold">Contact Information</h6>
                 <p className="section__description mb-0" style={{color:"black"}}>
-                No.19, 22nd Cross, Doddanna Industrial Estate Peenya 2 nd Stage, Bangalore – 560 091
+                No.19, 22nd Cross, Doddanna Industrial Estate,
+
+Peenya 2 nd Stage,Hegganahalli,
+
+Bangalore – 560 091
                 </p>
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="fs-6 mb-0">Phone:</h6>
@@ -86,6 +92,20 @@ const Contact = () => {
                   ))}
                 </div>
               </div>
+              <div className="contact-map">
+        <h1 style={{paddingBottom:"30px"}}>Our Office</h1>
+      <div style={{ width: '100%', height: '400px', position: 'relative' }}>
+      <iframe
+          src={googleMapSrc}
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+  </div>
+      </div>
             </Col>
           </Row>
         </Container>

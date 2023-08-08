@@ -85,7 +85,7 @@ const About = () => {
           <Col lg="6" md="6">
             <div className="about__section-content">
               <h4 className="About__Us">About Us</h4>
-              <h2 className="title"> Manufacturer of MS Laser Cutting Piece</h2>
+           
               <p className="description">
               With an impressive history and steadfast dedication to excellence, Expanding our capabilities, we now provide high-precision laser cutting services for various metals. Utilizing advanced laser cutting machines and skilled technicians, we deliver intricate and precise metal cutting solutions. Our expertise covers a wide range of metals, including stainless steel, aluminum, copper, and brass. Laser cutting ensures clean edges, minimizes material waste, and significantly reduces production time. 
               </p>

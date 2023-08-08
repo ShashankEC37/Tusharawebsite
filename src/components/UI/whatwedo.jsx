@@ -5,7 +5,9 @@ import laser from "../../assets/all-images/laser-cutting.png"
 import compressor from "../../assets/all-images/compressor.jpg"
 import containers from "../../assets/all-images/container.jpg"
 import belt from "../../assets/all-images/belt-conveyor.jpg"
-import elevator from "../../assets/all-images/elevator.jpg"
+import elevator from "../../assets/all-images/elevator.jpg";
+import portable from "../../assets/all-images/air compressor.jpg"
+import shot from "../../assets/all-images/shot blaster.jpg"
 const Whatwedo = () => {
     return (
       <section style={{backgroundColor:"#000d6b" ,  margin:"0"}}>
@@ -13,7 +15,9 @@ const Whatwedo = () => {
       <h2 className='title1' >Our Products</h2>
       <div className="container1" >
       <div className="box">
-      <div className="imgBx"></div>
+      <div className="imgBx">
+      <img src={portable}/>
+      </div>
       <div className="content">
       <h2>Enclosure for portable power compressor</h2>
         
@@ -32,7 +36,9 @@ const Whatwedo = () => {
       </div>
 
       <div className="box">
-      <div className="imgBx"></div>
+      <div className="imgBx">
+      <img src={shot}/>
+      </div>
       <div className="content">
       <h2>Body for shot blasting machines</h2>
         
@@ -80,10 +86,10 @@ const Whatwedo = () => {
       </div>
   </div>
   <div class="button-container">
-  <button className="know" >
-      Know More
-    </button>
-    </div>
+  <a href="/Products" className="know">
+    Know More
+  </a>
+</div>
       </Container>
     </section>
     )

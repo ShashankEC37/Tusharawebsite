@@ -34,7 +34,9 @@ we rebranded ourselves as Tushara Industries in 2011 to reflect our growth and e
 
               <div class="button-container">
     <button className="Know__More">
-      Know More
+    <a href="/about" className="know">
+    Know More
+  </a>
     </button>
     </div>
             </div>
