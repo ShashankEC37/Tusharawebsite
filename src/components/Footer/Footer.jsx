@@ -47,8 +47,9 @@ const Footer = () => {
             </div>
           
             <p className="footer__logo-content">
-            No.19, 22nd Cross, Doddanna Industrial Estate Peenya 2 nd Stage, Bangalore – 560 091
-            </p>
+            No.19, 22nd Cross, Doddanna Industrial Estate,</p>
+            <p className="footer__logo-content"> Peenya 2 nd Stage,Hegganahalli,</p>
+            <p className="footer__logo-content"> Bangalore – 560 091</p>
           </Col>
 
           <Col lg="2" md="4" sm="6">

@@ -12,7 +12,7 @@ const Resources = () => {
       <CommonSection title="Our Facility" />
       <section style={{backgroundColor:"white"}}>
         <Container>
-        <h3 style={{color:"black", textAlign:"justify" , margin:"0"}}>At Tushara Industries,
+        <h3 className="Resources" style={{color:"black", textAlign:"justify" , margin:"0", fontSize:'1.3em'}}>At Tushara Industries,
 We take great pride in our
 advanced facility, equipped with
 cutting-edge machinery and
@@ -29,8 +29,8 @@ solutions to our valued clients.</h3>
         <div className="card">
         <div className="imgBx"></div>
         <div className="content">
-        <h2>CNC LASER
-CUTTING MACHINE</h2>
+        <h2>CNC Laser
+Cutting Machine</h2>
           <p>Harnessing the precision
 and versatility of CNC
 technology, our advanced
@@ -50,8 +50,8 @@ fabrication requirements.</p>
         </div>
        
         <div className="content">
-          <h2>CNC BENDING
-MACHINE</h2>
+          <h2>CNC Bending
+Machine</h2>
           <p>Our CNC bending machine
 enables us to achieve precise
 bends and complex shapes with
@@ -67,8 +67,8 @@ of bending tasks.</p>
         <div className="card">
         <div className="imgBx"></div>
         <div className="content">
-        <h2>FABRICATION SETUP
-WITH EOT CRANE</h2>
+        <h2>Fabrication Setup
+with EOT crane</h2>
           <p>To facilitate seamless workflow
 and handling of heavy
 materials, our fabrication

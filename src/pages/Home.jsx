@@ -33,7 +33,7 @@ const Home = () => {
       <section  style={{background:"white"}}>
         <Container>
           <Row>
-            <ServicesList />
+          <OurAcheivements />
           </Row>
         </Container>
       </section>
@@ -51,7 +51,7 @@ const Home = () => {
    
             
 
-            <OurAcheivements />
+      
       
       </section>
 

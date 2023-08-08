@@ -91,8 +91,8 @@ const OurClients = () => {
       <Slider {...settings} beforeChange={handleSlideChange}>
         {visibleImages.map((image) => (
           <div key={image.id} className="card-container">
-            <div className="card">
-              <img src={image.image} alt={`Card ${image.id}`} />
+            <div className="card1">
+              <img src={image.image} alt={`Card1 ${image.id}`} />
             </div>
           </div>
         ))}

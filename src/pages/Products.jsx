@@ -33,7 +33,7 @@ const Products = () => {
         <div className="card">
         <div className="imgBx"></div>
         <div className="content">
-        <h2>ENCLOSURE FOR PORTABLE POWER COMPRESSOR</h2>
+        <h2>Enclosure for portable power compressor</h2>
           <p>We specialize in fabricating
 sturdy and reliable
 enclosures for portable
@@ -53,7 +53,7 @@ environments</p>
         </div>
        
         <div className="content">
-          <h2>INDUSTRIAL AIR FILTERS, FAN FILTERS</h2>
+          <h2>Industrial air filters, fans filters</h2>
           <p>Our industrial air filters and
 fan filters are designed to
 maintain clean and
@@ -72,7 +72,7 @@ safety.</p>
         <div className="card">
         <div className="imgBx"></div>
         <div className="content">
-        <h2>BODY FOR SHOT BLASTING MACHINES</h2>
+        <h2>Body for shot blasting machines</h2>
           <p>We excel in manufacturing
 durable bodies for shot
 blasting machines. These
@@ -92,9 +92,9 @@ processes.</p>
         </div>
        
         <div className="content">
-          <h2>VARIOUS TYPES OF DIESEL
-TANKS WITH LEAK TEST AND
-PRESSURE TEST FACILITY</h2>
+          <h2>Various types of diesel
+tanks with leak test and
+pressure test facility</h2>
           <p>Our industrial air filters and
 fan filters are designed to
 maintain clean and
@@ -118,7 +118,7 @@ safety.</p>
         </div>
        
         <div className="content">
-          <h2>CONVEYORS</h2>
+          <h2>Conveyors</h2>
           <p>We offer high-quality
 conveyors that are designed
 to optimize material handling
@@ -141,7 +141,7 @@ overall productivity.</p>
         </div>
        
         <div className="content">
-          <h2>ELEVATORS</h2>
+          <h2>Elevators</h2>
           <p>Tushara Industries specializes
 in fabricating sturdy and
 dependable elevators. These s

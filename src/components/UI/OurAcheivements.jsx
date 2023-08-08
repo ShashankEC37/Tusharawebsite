@@ -10,7 +10,7 @@ const OurAcheivements = () => {
 
   return (
     <section
-    className="about__section"
+    className="ouracheivements"
    
   >
     <Container>
@@ -19,19 +19,19 @@ const OurAcheivements = () => {
           <div className="about__section-content">
             <h4 className="About__Us">Our Acheivements</h4>
        
-            <p className="section__description">
+            <p className="acheivement_description">
             • Exceeded revenue targets consistently, surpassing expectations.
             </p>
-            <p className="section__description">
+            <p className="acheivement_description">
             • Recognized with prestigious industry awards.
             </p>
-            <p className="section__description">
+            <p className="acheivement_description">
             • Achieved significant project milestones, driving growth.
             </p>
-            <p className="section__description">
+            <p className="acheivement_description">
             • Received quality control award for excellence.
             </p>
-            <p className="section__description">
+            <p className="acheivement_description">
             • Honored with Govt. of India award for MSME.
             </p>
    
@@ -39,7 +39,7 @@ const OurAcheivements = () => {
    
    
             <div class="button-container">
-    <button className="Know__More">
+            <button className="Know__More" style={{ backgroundColor:'#000d6b', color: 'white'}}>
       Know More
     </button>
     </div>
